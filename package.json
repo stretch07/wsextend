@@ -1,0 +1,29 @@
+{
+  "name": "wsextend",
+  "version": "1.0.0",
+  "description": "quick utility for extending an already existing websocket server",
+  "main": "src/ws.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stretch07/wsextend.git"
+  },
+  "keywords": [
+    "websocket",
+    "network",
+    "ws"
+  ],
+  "author": "stretch07",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stretch07/wsextend/issues"
+  },
+  "homepage": "https://github.com/stretch07/wsextend#readme",
+  "dependencies": {
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1",
+    "ws": "^8.13.0"
+  }
+}

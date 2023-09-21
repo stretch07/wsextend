@@ -17,4 +17,5 @@ export function extendIO(options = {port: 8002}, ...addresses) {
             server.emit(event, ...args)
         })
     }
+    return server
 }

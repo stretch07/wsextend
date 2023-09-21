@@ -14,4 +14,5 @@ export function extendWs(options, ...addresses) {
             server.emit("message", ev.data)
         })
     }
+    return server
 }
